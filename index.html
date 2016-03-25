@@ -8,9 +8,18 @@
     <title>Vacation Suggester</title>
   </head>
   <body>
-    <!-- Start Project Section -->
     <div class="container">
-      <h1>Vacation Suggester</h1>
+      <div class="row">
+        <div class="col-sm-2">
+          <img id="top-photo" src="http://www.haydenmace.com/wp-content/uploads/2015/03/Planvacation.jpg" alt="Vacation Photo" />
+        </div>
+        <div class="col-sm-8">
+          <h1>Vacation Suggester</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
       <h2>Find out what your destination will be, We would like to know a little about you.</h2>
 
       <form id="about-you">
@@ -50,8 +59,23 @@
             </label>
           </div>
         </div>
+        <div>  <!-- Start Question 3 -->
+          <h4>Q3. Do you consider yourself a...</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" value="tourist">
+              Tourist
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" value="traveler">
+              Traveler
+            </label>
+          </div>
+        </div>
 
-        <button type="submit" class="btn btn-primary">Find my Destination</button>
+        <button type="submit" class="btn btn-primary">Find My Destination</button>
       </form>
       <hr>
 
@@ -59,7 +83,7 @@
 
       <div id="result">
         <h1 id="destination"></h1>
-        <img src="http://www.haydenmace.com/wp-content/uploads/2015/03/Planvacation.jpg" alt="Vacation Photo" />
+        <img src="" alt="Destination Photo" />
       </div>
 
     </div>

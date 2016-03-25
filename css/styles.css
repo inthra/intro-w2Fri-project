@@ -1,11 +1,19 @@
-form {
-  padding-bottom: 10px;
+body {
+  margin: 25px;
+}
+
+.container {
+  padding: 10px;
 }
 
 hr {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
+img#top-photo {
+  width: 150px;
+  height: auto;
+}
 #result {
   display: none;
   text-align: center;
@@ -13,13 +21,9 @@ hr {
 }
 
 img {
-  width: 640px;
+  width: 500px;
   height: auto;
   border-radius: 7px;
-}
-
-h1 {
-  text-align: center;
 }
 
 h4 {
