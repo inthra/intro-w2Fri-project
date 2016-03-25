@@ -7,7 +7,9 @@ hr {
 }
 
 #result {
+  display: none;
   text-align: center;
+  color: blue;
 }
 
 img {
@@ -18,4 +20,8 @@ img {
 
 h1 {
   text-align: center;
+}
+
+h4 {
+  padding-top: 10px;
 }
