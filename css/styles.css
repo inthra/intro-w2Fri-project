@@ -14,6 +14,7 @@ img#top-photo {
   width: 150px;
   height: auto;
 }
+
 #result {
   display: none;
   text-align: center;
@@ -38,6 +39,11 @@ form {
   text-align: center;
   color: red;
 }
+
+#destination2 {
+  color: #00ff99;
+}
+
 #accommodation1, #accommodation2 {
   display: none;
   text-align: center;
