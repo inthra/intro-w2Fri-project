@@ -109,7 +109,16 @@ $(document).ready(function(){
       $("#warning").empty().append("Please Answer All Questions");
     }
 
+//Get Additional Information Section ------------------------
+    var nameInput = $("input#name").val();
+    var emailInput = $("input#email").val();
 
+    if (nameInput && emailInput) {
+      $(".name").text(nameInput);
+      $(".email").text(emailInput);
+      $("#more-info").show();
+    }
+    
     event.preventDefault();
   });
 });

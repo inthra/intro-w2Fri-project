@@ -17,7 +17,7 @@
           <h1>Vacation Suggester</h1>
         </div>
       </div>
-    </div>
+    </div> <!-- End 1st container -->
 
     <div class="container">
       <h2>Find out what your destination will be, We would like to know a little about you.</h2>
@@ -43,7 +43,7 @@
               Exciting on the Unexpectation
             </label>
           </div>
-        </div>
+        </div>  <!-- End Question 1 -->
         <div>  <!-- Start Question 2 -->
           <h4>Q2. When I go on vacation the cost of things is...</h4>
           <div class="radio">
@@ -58,7 +58,7 @@
               A big concern
             </label>
           </div>
-        </div>
+        </div>  <!-- End Question 2 -->
         <div>  <!-- Start Question 3 -->
           <h4>Q3. Do you consider yourself a...</h4>
           <div class="radio">
@@ -73,7 +73,7 @@
               Traveler
             </label>
           </div>
-        </div>
+        </div>  <!-- End Question 3 -->
         <div>  <!-- Start Question 4 -->
           <h4>Q4. While on vacation, where would you like to stay at?</h4>
           <div class="radio">
@@ -94,7 +94,7 @@
               Whatever most affordable I can get
             </label>
           </div>
-        </div>
+        </div>  <!-- End Question 4 -->
         <div>  <!-- Start Question 5 -->
           <h4>Q5. Who would you prefer to travel with?</h4>
           <div class="radio">
@@ -115,15 +115,36 @@
               My family
             </label>
           </div>
+        </div>  <!-- End Question 5 -->
+
+        <hr>
+        <!-- Start More Information Section -->
+        <h5>If you would like more information, please fill in your name and email. <br> Do not worry. We will not use your private information in ways you would not like.</h5>
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Jane Doe">
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="jane.doe@example.com">
+            </div>
+          </div>
         </div>
+        <hr>
+        <!-- End More Information Section -->
 
         <button type="submit" class="btn btn-success">Find My Destination</button>
-      </form>
+
+      </form>  <!-- End Form Section -->
       <hr>
 
       <h2>Your perfect vacation would be...</h2>
 
-      <div id="result">
+      <div class="jumbotron" id="result">    <!-- Result Section -->
         <h1 id="destination"></h1>
         <h3 id="destination2"></h3>
       </div>
@@ -131,8 +152,10 @@
       <h4 id="accommodation1">Try this site for your accommodation: <a href="https://www.expedia.com/">Expedia</a></h4>
       <h4 id="accommodation2">Try this site for your accommodation: <a href="https://www.airbnb.com/">airbnb</a></h4>
       <h1 id="warning"></h1>
+      <h4 id="more-info">Your additional information will send to <span class="name"></span> at <span class="email"></span></h4>
 
-      <img id="spot1" src="http://vistour.sk/imgs/tours/9560722024ccce6b4b043078235163dc.jpg" alt="Las Vegas Photo">
+<!-- Destination Images Section -->
+      <img id="spot1" src="https://secure.static.tumblr.com/b4b7f5e4aeb9441cf3b3b5d2d1c9084a/aec0ctd/WEInggiuy/tumblr_static_tumblr_static_1e9x1w2pddy8k08008kgw48sk_640.jpg" alt="Las Vegas Photo">
       <img id="spot2" src="http://images-resrc.staticlp.com/C=AR1200x630/S=W1200,U/O=85/http://media.lonelyplanet.com/a/g/hi/t/c05b829af5ee38ab1917f335d937f8e1-hawaii.jpg" alt="Hawaii Photo">
       <img id="spot3" src="https://lh3.googleusercontent.com/-DPsmmStt8xk/VRGyj912pPI/AAAAAAAADnM/SueXMl-Fve4/w1700-h956/Northern-Lights-Winter.png" alt="Iceland Photo">
       <img id="spot4" src="http://assets2.ideas4allstatic.com/ideas/0002/2547/ChrisLitherlandBourbonSt.jpg?1442918927" alt="New Orleans Photo">
@@ -145,7 +168,7 @@
       <img id="spot11" src="http://cdn.costaricaexperts.com/wp-content/uploads/2014/05/Rio-Celeste-Waterfall-Costa-Rica.jpg" alt="Costa Rica Photo">
       <img id="spot12" src="http://www.nationofchange.org/sites/default/files/YellowstoneDrillingSite071714.jpg" alt="Yellowstone Photo">
 
-    </div>
+    </div> <!-- End 2nd container -->
 
   </body>
 </html>

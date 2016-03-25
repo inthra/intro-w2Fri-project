@@ -15,7 +15,7 @@ img#top-photo {
   height: auto;
 }
 
-#result {
+#result, #more-info {
   display: none;
   text-align: center;
   color: #0099ff;
