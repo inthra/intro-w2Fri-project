@@ -38,3 +38,7 @@ form {
   text-align: center;
   color: red;
 }
+#accommodation1, #accommodation2 {
+  display: none;
+  text-align: center;
+}
