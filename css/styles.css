@@ -24,7 +24,8 @@ img#top-photo {
 img {
   width: 500px;
   height: auto;
-  border-radius: 7px;
+  border-radius: 15px;
+  padding: 7px;
 }
 
 h4 {
@@ -41,7 +42,7 @@ form {
 }
 
 #destination2 {
-  color: #00ff99;
+  color: #ccccb3;
 }
 
 #accommodation1, #accommodation2 {
