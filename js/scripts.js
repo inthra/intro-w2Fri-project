@@ -4,8 +4,10 @@ $(document).ready(function(){
     var q1 = $("input:radio[name=question1]:checked").val();
     var q2 = $("input:radio[name=question2]:checked").val();
     var q3 = $("input:radio[name=question3]:checked").val();
+    var q4 = $("input:radio[name=question4]:checked").val();
 
-    if (q1 && q2 && q3) {
+//Branching combination of Question 1,2, and 3 ------------------------
+    if (q1 && q2 && q3 && q4) {
       if (q1 === "city" && q2 === "high" && q3 === "tourist") {
         $("#destination").empty().append("Las Vegas");
         $("#result").show();
@@ -45,8 +47,33 @@ $(document).ready(function(){
       }
 
     } else {
-      $("#destination").empty().append("Please Answer All Questions");
-      $("#result").show();
+      $("#warning").empty().append("Please Answer All Questions");
+    }
+
+//Branching combination of Question 2 and 4 ------------------------
+    if (q1 && q2 && q3 && q4) {
+      if (q2 === "high" && q4 === "high") {
+        $("#accommodation").empty().append("Hotel1");
+        $("#result").show();
+      } else if (q2 === "high" && q4 === "medium") {
+        $("#accommodation").empty().append("Hotel2");
+        $("#result").show();
+      } else if (q2 === "high" && q4 === "low") {
+        $("#accommodation").empty().append("Hotel3");
+        $("#result").show();
+      } else if (q2 === "low" && q4 === "high") {
+        $("#accommodation").empty().append("Hotel4");
+        $("#result").show();
+      } else if (q2 === "low" && q4 === "medium") {
+        $("#accommodation").empty().append("Hotel5");
+        $("#result").show();
+      } else if (q2 === "low" && q4 === "low") {
+        $("#accommodation").empty().append("Hotel6");
+        $("#result").show();
+      }
+
+    } else {
+      $("#warning").empty().append("Please Answer All Questions");
     }
 
     event.preventDefault();

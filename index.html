@@ -74,8 +74,29 @@
             </label>
           </div>
         </div>
+        <div>  <!-- Start Question 4 -->
+          <h4>Q4. While on vacation, where would you like to stay at?</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" value="high">
+              Five-Star Hotels
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" value="medium">
+              A local inn or bed and breakfast
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" value="low">
+              Whatever most affordable I can get
+            </label>
+          </div>
+        </div>
 
-        <button type="submit" class="btn btn-primary">Find My Destination</button>
+        <button type="submit" class="btn btn-success">Find My Destination</button>
       </form>
       <hr>
 
@@ -83,8 +104,11 @@
 
       <div id="result">
         <h1 id="destination"></h1>
+        <h3 id="accommodation"></h3>
         <img src="" alt="Destination Photo" />
       </div>
+
+      <h1 id="warning"></h1>
 
     </div>
 

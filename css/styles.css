@@ -17,7 +17,7 @@ img#top-photo {
 #result {
   display: none;
   text-align: center;
-  color: blue;
+  color: #0099ff;
 }
 
 img {
@@ -28,4 +28,13 @@ img {
 
 h4 {
   padding-top: 10px;
+}
+
+form {
+  padding-left: 40px;
+}
+
+#warning {
+  text-align: center;
+  color: red;
 }
