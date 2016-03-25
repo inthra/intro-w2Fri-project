@@ -46,7 +46,7 @@ $(document).ready(function(){
         $("#result").fadeIn().show();
         $("#spot1, #spot2, #spot3, #spot4, #spot5, #spot6, #spot7, #spot8, #spot10, #spot11, #spot12").fadeOut();
       } else if (q1 === "city" && q2 === "low" && q3 === "traveler") {
-        $("#destination").empty().append("Brisbane, Australia");
+        $("#destination").empty().append("Sydney, Australia");
         $("#result").fadeIn().show();
         $("#spot1, #spot2, #spot3, #spot4, #spot5, #spot6, #spot7, #spot8, #spot9, #spot11, #spot12").fadeOut();
       } else if (q1 === "beach" && q2 === "low" && q3 === "traveler") {
@@ -118,7 +118,7 @@ $(document).ready(function(){
       $(".email").text(emailInput);
       $("#more-info").show();
     }
-    
+
     event.preventDefault();
   });
 });
