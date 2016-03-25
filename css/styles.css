@@ -1,0 +1,21 @@
+form {
+  padding-bottom: 10px;
+}
+
+hr {
+  padding-bottom: 10px;
+}
+
+#result {
+  text-align: center;
+}
+
+img {
+  width: 640px;
+  height: auto;
+  border-radius: 7px;
+}
+
+h1 {
+  text-align: center;
+}

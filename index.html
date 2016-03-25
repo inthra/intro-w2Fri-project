@@ -5,11 +5,50 @@
     <link href="css/styles.css" rel="stylesheet">
     <script src="js/jquery-1.12.2.js"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
-    <title></title>
+    <title>Vacation Suggester</title>
   </head>
   <body>
     <!-- Start Project Section -->
+    <div class="container">
+      <h1>Vacation Suggester</h1>
+      <h2>Find out what your destination will be, We would like to know a little about you.</h2>
 
-    
+      <form id="about-you">
+        <div>  <!-- Start Question 1 -->
+          <h4>Q1. What I picture my ideal vacation, I see myself...</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="city">
+              Exploring a large city
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="beach">
+              Relaxing on the beach
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="art">
+              Exciting on the local art
+            </label>
+          </div>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Find my Destination</button>
+      </form>
+      <hr>
+
+      <h2>Your perfect vacation would be...</h2>
+
+      <div id="result">
+        <h2 id="destination"></h2>
+        <img src="http://www.haydenmace.com/wp-content/uploads/2015/03/Planvacation.jpg" alt="Vacation Photo" />
+      </div>
+
+    </div>
+
   </body>
 </html>
